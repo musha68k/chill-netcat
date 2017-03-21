@@ -1,8 +1,8 @@
 # Chill-Netcat
 
-A deliberately limited [Netcat](https://en.wikipedia.org/wiki/Netcat) implementation (UDP only).
+A deliberately limited [Netcat](https://en.wikipedia.org/wiki/Netcat) implementation ([IP](https://en.wikipedia.org/wiki/Internet_Protocol)/[UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) only).
 
-An exercise in building a network enabled [systems program](https://en.wikipedia.org/wiki/System_programming) / [unikernel](https://en.wikipedia.org/wiki/Unikernel) with [OCaml](http://ocaml.org)/[MirageOS](https://mirage.io).
+An exercise in building a network enabled [systems program](https://en.wikipedia.org/wiki/System_programming) / [unikernel](https://en.wikipedia.org/wiki/Unikernel) with [OCaml](http://ocaml.org) / [MirageOS](https://mirage.io).
 
 This project is based on the highly instructional ["Hello MirageOS World"](https://mirage.io/wiki/hello-world) guide and [mirage-skeleton](https://github.com/mirage/mirage-skeleton) code examples.
 
@@ -26,3 +26,12 @@ Build binary:
 ```shell
 make
 ```
+
+# Run
+
+On MacOS:
+```shell
+./chill_netcat
+```
+
+On Xen (not yet..)
