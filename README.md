@@ -8,6 +8,8 @@ With minimal network related dependencies included the resulting binary has a si
 
 This project is based on the highly instructional ["Hello MirageOS World"](https://mirage.io/wiki/hello-world) guide and [mirage-skeleton](https://github.com/mirage/mirage-skeleton) code examples.
 
+You can also watch [my talk](https://youtu.be/37cLNsnLozE) at the first Vienna ReasonML meetup.
+
 # Setup
 
 Check the official [MirageOS installation](https://mirage.io/wiki/install) guide.
