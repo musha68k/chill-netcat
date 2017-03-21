@@ -11,7 +11,7 @@ module ChillNetcat (C: CONSOLE) (N: NETWORK) (E: ETHIF) (I: IPV4) = struct
                             ~tcp:(fun ~src:_ ~dst:_ _ -> C.log c "TCP package registered")
                             ~udp:(fun ~src:_ ~dst:_ packet -> C.write c packet
                                                               >>= function
-                                                              | Result.Ok () -> C.log c "CONSOLE WRITE OK"
+                                                              | Result.Ok () -> Lwt.return_unit
                                                               | Result.Error _ -> C.log c "CONSOLE WRITE ERROR")
                             ~default:(fun ~proto ~src:_ ~dst:_ _data -> C.log c (string_of_int proto))
                             i)
