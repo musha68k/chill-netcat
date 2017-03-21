@@ -1,4 +1,4 @@
-# Chill-Netcat
+# Chill-Netcat (work in progress)
 
 A deliberately limited [Netcat](https://en.wikipedia.org/wiki/Netcat) implementation ([UDP](https://en.wikipedia.org/wiki/User_Datagram_Protocol) only).
 
